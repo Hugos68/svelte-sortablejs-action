@@ -3,6 +3,9 @@
 	"version": "1.0.1",
 	"description": "Svelte wrapper for SortableJS",
 	"main": "dist/index.js",
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "tsc",
 		"watch": "tsc -w",
