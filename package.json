@@ -1,0 +1,21 @@
+{
+	"name": "svelte-sortablejs-action",
+	"version": "0.0.1",
+	"description": "Svelte wrapper for SortableJS",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc -w"
+	},
+	"keywords": [],
+	"author": "Hugo Korte",
+	"license": "MIT",
+	"dependencies": {
+		"sortablejs": "^1.15.2"
+	},
+	"devDependencies": {
+		"@types/sortablejs": "^1.15.7",
+		"@types/node": "^20.11.16",
+    		"typescript": "^5.3.3"
+	}
+}
