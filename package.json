@@ -8,6 +8,9 @@
 		"watch": "tsc -w",
     "release": "changeset publish"
 	},
+  "publishConfig": {
+    "access": "public"
+  },
 	"keywords": [
 		"svelte",
 		"sortablejs"
