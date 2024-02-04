@@ -1,12 +1,12 @@
 {
 	"name": "svelte-sortablejs-action",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Svelte wrapper for SortableJS",
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
 		"watch": "tsc -w",
-    "release": "changeset publish"
+		"release": "changeset publish"
 	},
   "publishConfig": {
     "access": "public"
