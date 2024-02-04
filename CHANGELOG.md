@@ -1,5 +1,11 @@
 # svelte-sortablejs-action
 
+## 1.0.2
+
+### Patch Changes
+
+- 30192d6: Added type decleration file
+
 ## 1.0.1
 
 ### Patch Changes
