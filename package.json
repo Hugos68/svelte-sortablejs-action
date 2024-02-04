@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "tsc",
 		"watch": "tsc -w",
-    "release": "changeset publish"
+    "release": "pnpm build && changeset publish"
 	},
   "publishConfig": {
     "access": "public"
