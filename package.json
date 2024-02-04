@@ -5,17 +5,22 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"watch": "tsc -w"
+		"watch": "tsc -w",
+    "release": "changeset publish"
 	},
-	"keywords": [],
+	"keywords": [
+		"svelte",
+		"sortablejs"
+	],
 	"author": "Hugo Korte",
 	"license": "MIT",
 	"dependencies": {
+		"@changesets/cli": "^2.27.1",
 		"sortablejs": "^1.15.2"
 	},
 	"devDependencies": {
-		"@types/sortablejs": "^1.15.7",
 		"@types/node": "^20.11.16",
-    		"typescript": "^5.3.3"
+		"@types/sortablejs": "^1.15.7",
+		"typescript": "^5.3.3"
 	}
 }
