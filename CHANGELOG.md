@@ -1,5 +1,11 @@
 # svelte-sortablejs-action
 
+## 1.0.3
+
+### Patch Changes
+
+- e545277: Internal improvements
+
 ## 1.0.2
 
 ### Patch Changes
